@@ -1,0 +1,13 @@
+#!name=俄罗斯克拉
+ #!desc=俄罗斯克拉🔞 解锁VIP+去广告
+ #!author=lOS-脚本研究院[https://raw.githubusercontent.com/WeiGiegie/666/main/elskl.js]
+ #!date=2026-09-10
+ #!openUrl=https://apps.apple.com/cn/app/id6800389257
+ #!homepage=https://github.com/WeiGiegie
+ #!icon=https://github.com/taikulayyds/icon/raw/refs/heads/mina/elskl.png
+
+[Script]
+http-response ^https?:\/\/sixth.xxcjpt.com\/java\/(user\/my|show) script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/elskl.js, requires-body=true, timeout=60, tag=俄罗斯克拉会员+去广告
+
+[MitM]
+hostname = sixth.xxcjpt.com
